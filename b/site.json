@@ -1,0 +1,23 @@
+{
+  "business": {
+    "name": "AJBL dépannage plomberie",
+    "category": "Plombier Caen",
+    "address": "2 A All. des Clématites, 14120 Mondeville, France",
+    "phone": "06 99 68 35 59",
+    "rating": 5,
+    "reviews": 67
+  },
+  "content": {
+    "headline": "Votre plombier à Caen, disponible en urgence",
+    "subline": "Dépannage, fuites, chauffe-eau et sanitaires à Caen et alentours. Intervention rapide, devis clair, travail garanti.",
+    "services": [
+      "Dépannage d'urgence",
+      "Recherche et réparation de fuite",
+      "Débouchage canalisations",
+      "Installation et remplacement de chauffe-eau",
+      "Rénovation salle de bain et sanitaires",
+      "Remplacement robinetterie"
+    ],
+    "about": "AJBL Dépannage Plomberie intervient à Caen et dans son agglomération pour tous vos travaux de plomberie, du dépannage urgent à la rénovation de salle de bain. Nous privilégions un diagnostic honnête, un devis transparent avant intervention et un chantier laissé propre. La qualité de notre travail se lit dans nos avis clients : 5,0/5 sur 67 avis Google."
+  }
+}
