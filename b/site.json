@@ -8,16 +8,21 @@
     "reviews": 67
   },
   "content": {
-    "headline": "Votre plombier à Caen, disponible en urgence",
-    "subline": "Dépannage, fuites, chauffe-eau et sanitaires à Caen et alentours. Intervention rapide, devis clair, travail garanti.",
+    "headline": "Votre plombier à Caen, vite et bien fait",
+    "subline": "Dépannage, fuites et urgences plomberie à Caen et alentours. Intervention rapide, devis clair, artisan noté 5/5.",
     "services": [
-      "Dépannage d'urgence",
-      "Recherche et réparation de fuite",
-      "Débouchage canalisations",
-      "Installation et remplacement de chauffe-eau",
-      "Rénovation salle de bain et sanitaires",
-      "Remplacement robinetterie"
+      "Dépannage urgence 7j/7",
+      "Recherche \u0026 réparation de fuite",
+      "Débouchage canalisation",
+      "Remplacement chauffe-eau",
+      "Installation sanitaire",
+      "Robinetterie \u0026 WC"
     ],
-    "about": "AJBL Dépannage Plomberie intervient à Caen et dans son agglomération pour tous vos travaux de plomberie, du dépannage urgent à la rénovation de salle de bain. Nous privilégions un diagnostic honnête, un devis transparent avant intervention et un chantier laissé propre. La qualité de notre travail se lit dans nos avis clients : 5,0/5 sur 67 avis Google."
+    "about": "AJBL Dépannage Plomberie intervient à Caen et dans son agglomération pour tous vos besoins en plomberie, du simple dépannage aux urgences. Artisan de proximité reconnu pour son sérieux, AJBL affiche une note de 5,0/5 fondée sur 67 avis clients. Réactivité, travail soigné et devis transparent : votre satisfaction est notre priorité."
+  },
+  "images": {
+    "about": "assets/intervention.webp",
+    "hero": "assets/artisan.webp",
+    "map": "assets/map.webp"
   }
 }
