@@ -42,6 +42,34 @@
       }));
     });
 
+    const faqs = Array.isArray(data.content.faq) ? data.content.faq.filter(item => clean(item?.question) && clean(item?.answer)) : [];
+    document.querySelectorAll('[data-faq]').forEach(list => {
+      if (!faqs.length) { list.hidden = true; return; }
+      list.replaceChildren(...faqs.map(item => {
+        const details = document.createElement('details');
+        const summary = document.createElement('summary');
+        const answer = document.createElement('p');
+        summary.textContent = clean(item.question);
+        answer.textContent = clean(item.answer);
+        details.append(summary, answer);
+        return details;
+      }));
+    });
+
+    const prices = Array.isArray(data.content.prices) ? data.content.prices.filter(item => clean(item?.label) && clean(item?.price)) : [];
+    document.querySelectorAll('[data-prices]').forEach(list => {
+      if (!prices.length) { list.hidden = true; return; }
+      list.replaceChildren(...prices.map(item => {
+        const row = document.createElement('li');
+        const label = document.createElement('span');
+        const price = document.createElement('strong');
+        label.textContent = clean(item.label);
+        price.textContent = clean(item.price);
+        row.append(label, price);
+        return row;
+      }));
+    });
+
     const rating = Number(data.business.rating);
     const reviews = Number(data.business.reviews);
     document.querySelectorAll('[data-proof]').forEach(proof => {
