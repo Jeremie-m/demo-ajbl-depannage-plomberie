@@ -8,21 +8,33 @@
     "reviews": 67
   },
   "content": {
-    "headline": "Votre plombier à Caen, vite et bien fait",
-    "subline": "Dépannage, fuites et urgences plomberie à Caen et alentours. Intervention rapide, devis clair, artisan noté 5/5.",
+    "headline": "Votre plombier à Caen, 7j/7",
+    "subline": "Dépannage rapide, devis clair et intervention soignée : appelez AJBL pour toute urgence plomberie à Caen.",
     "services": [
-      "Dépannage urgence 7j/7",
-      "Recherche \u0026 réparation de fuite",
+      "Dépannage fuite d'eau",
       "Débouchage canalisation",
-      "Remplacement chauffe-eau",
+      "Réparation chauffe-eau",
+      "Recherche de fuite",
       "Installation sanitaire",
-      "Robinetterie \u0026 WC"
+      "Rénovation salle de bain"
     ],
-    "about": "AJBL Dépannage Plomberie intervient à Caen et dans son agglomération pour tous vos besoins en plomberie, du simple dépannage aux urgences. Artisan de proximité reconnu pour son sérieux, AJBL affiche une note de 5,0/5 fondée sur 67 avis clients. Réactivité, travail soigné et devis transparent : votre satisfaction est notre priorité."
+    "about": "AJBL dépannage plomberie intervient à Caen et dans son agglomération pour tous vos besoins en plomberie, du simple dépannage aux installations complètes. Réactifs et méticuleux, nous mettons un point d'honneur à un travail propre et durable, ce que reflètent nos 67 avis Google à 5,0/5. Un interlocuteur unique, un devis transparent et une intervention rapide, même en urgence."
   },
   "images": {
     "about": "assets/intervention.webp",
     "hero": "assets/artisan.webp",
     "map": "assets/map.webp"
+  },
+  "map": {
+    "center": {
+      "lat": 49.1796037,
+      "lng": -0.3045943
+    },
+    "city": "Mondeville",
+    "label": "Mondeville · secteur d'intervention",
+    "padding": 1.4,
+    "provider": "openstreetmap",
+    "radiusKm": 20,
+    "title": "Carte OpenStreetMap de Mondeville et son secteur"
   }
 }
