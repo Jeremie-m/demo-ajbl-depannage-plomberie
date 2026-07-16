@@ -10,3 +10,5 @@ header{border-top:.35rem solid var(--accent);border-bottom:1px solid var(--rule)
 @media(min-width:48rem){.head{grid-template-columns:1fr auto 1fr}.head nav{display:flex;gap:1.5rem;font-size:.8rem}.head nav a{text-decoration:none}.head-call{justify-self:end}.hero{grid-template-columns:7fr 5fr;padding-inline:var(--gutter);padding-block:2.5rem}.hero-copy{align-self:center;padding:clamp(3rem,5vw,5rem)}.hero figure{min-height:39rem}.trust-grid{grid-template-columns:repeat(3,1fr);padding-inline:var(--gutter)}.trust-grid div{padding-inline:1.5rem;border-right:1px solid rgba(255,255,255,.3);border-bottom:0}.services{grid-template-columns:4fr 8fr}.services ol{grid-template-columns:1fr 1fr}.about-grid,.zone,.faq{grid-template-columns:5fr 7fr}.no-about-image .about-grid,.no-map-image .zone{grid-template-columns:1fr}.mobile-call{display:none}footer{padding-bottom:2rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
+
+:root{--accent:#e8620c;--accent-dark:#ae4a09;--surface:#f6ebe4}
